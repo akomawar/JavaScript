@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Circle Game</title>
+
+	<style type="text/css">
+		
+	#red{
+
+		background-color: red;
+
+	}
+
+	#green{
+
+		background-color: green; 
+
+	}
+
+	#blue{
+
+		background-color: blue;
+
+	}	
+
+	.circle{
+
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		float: left;
+		margin-left: 100px;	
+
+	}
+	</style>
+
+</head>
+<body>
+
+	<p id="red" class="circle"></p>
+	<p id="green" class="circle"></p>
+	<p id="blue" class="circle"></p>
+
+	<script type="text/javascript">
+		
+	document.getElementById('red').onclick = function(){
+		document.getElementById('red').style.display = 'none';
+	}
+	document.getElementById('green').onclick = function(){
+		document.getElementById('green').style.display = 'none';
+	}
+	document.getElementById('blue').onclick = function(){
+		document.getElementById('blue').style.display = 'none';
+	}
+
+
+	</script>
+
+
+
+</body>
+</html>
